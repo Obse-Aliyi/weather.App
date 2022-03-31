@@ -1,5 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 .weather-app {
   max-width: 480px;
@@ -10,6 +11,10 @@ body {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
+  background: #fff;
+}
+.weather-wrapper:hover {
+  background: #385170;
 }
 h1 {
   color: #878787;
@@ -80,4 +85,8 @@ a {
 }
 .weather-forecast-temperature {
   font-size: 13px;
+}
+hr {
+  border-radius: 5px;
+  border: 1px solid #fff;
 }
